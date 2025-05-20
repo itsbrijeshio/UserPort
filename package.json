@@ -1,0 +1,30 @@
+{
+  "name": "user-port",
+  "version": "1.0.0",
+  "description": "UserPort is a simple and developer-friendly authentication backend API built with Node.js and Express.",
+  "license": "ISC",
+  "author": "Brijesh GP <brijeshsoftdev@duck.com>",
+  "repository": "https://github.com/itsbrijeshio/UserPort",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "argon2": "^0.43.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cron": "^4.3.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0",
+    "zod": "^3.25.7"
+  }
+}
